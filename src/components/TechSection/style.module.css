@@ -1,0 +1,7 @@
+.techSection__container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 100px;
+    width: 100%;
+}

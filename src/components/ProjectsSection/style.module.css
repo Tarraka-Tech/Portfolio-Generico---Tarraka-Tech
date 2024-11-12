@@ -1,0 +1,6 @@
+.projects__container{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-bottom: 43px;
+}

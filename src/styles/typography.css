@@ -1,0 +1,44 @@
+.title{
+    font-family: var(--font-primary);
+    font-weight: bold;
+}
+
+.title.lg{
+    font-size: clamp(2.625rem, 5vw, 3rem);
+}
+
+.title.md{
+    font-size: clamp(2.25rem, 5vw, 2.5rem);
+}
+
+.title.sm{
+    font-size: 1.375rem;
+}
+
+.label{
+    font-family: var(--font-primary);
+    font-size: .875rem;
+    color: var(--color-primary);
+    font-weight: normal;
+}
+
+
+.link{
+    font-family: var(--font-primary);
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--color-purple1);
+    text-decoration: none;
+}
+
+.link:hover{
+    color: var(--color-purple1-hover);
+    text-decoration: underline;
+}
+
+.paragraph{
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 30px;
+}

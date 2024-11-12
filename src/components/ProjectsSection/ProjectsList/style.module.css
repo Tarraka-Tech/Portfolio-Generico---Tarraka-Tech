@@ -1,0 +1,6 @@
+.projectList__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 21px;
+}

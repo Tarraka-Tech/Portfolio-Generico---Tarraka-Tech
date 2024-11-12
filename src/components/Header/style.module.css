@@ -1,0 +1,19 @@
+.Header__Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6875rem;
+    max-width: 256px;
+    margin: 0 auto;
+    margin-bottom: 28px;
+}
+
+@media (min-width: 900px) {
+    .Header__Container{
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 100%;
+        margin-bottom: 98px;
+    }
+}

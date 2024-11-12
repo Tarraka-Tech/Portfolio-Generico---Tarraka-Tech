@@ -1,0 +1,18 @@
+:root{
+    --font-primary: 'Inter', sans-serif;
+
+    --color-primary: #6880FF;
+    --color-primary-hover: #7C91FF;
+
+    --color-purple1: #7B61FF;
+    --color-purple1-hover: #7C91FF;;
+
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+}
+
+body{
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: 28px 0;
+}

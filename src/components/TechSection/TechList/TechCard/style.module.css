@@ -1,0 +1,16 @@
+.techCard__container{
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+    border: 1px solid #ffffff80;
+    border-radius: 25px;
+    padding: 23px 29px;
+    align-items: center;
+    width: 332px;
+}
+
+@media (min-width: 900px) {
+    .techCard__container{
+        width: 287px;
+    }
+}

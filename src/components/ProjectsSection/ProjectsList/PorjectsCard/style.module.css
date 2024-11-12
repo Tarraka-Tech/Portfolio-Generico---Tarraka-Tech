@@ -1,0 +1,25 @@
+.card__container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ffffff80;
+    border-radius: 25px;
+    padding: 27px 16px 20px 33px;
+    width: 332px;
+}
+
+.card__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 17px;
+}
+
+.card__text{
+    margin-bottom: 32px;
+}
+
+@media (min-width: 900px){
+    .card__container{
+        width: 439px;
+    }
+}

@@ -1,0 +1,33 @@
+.bannerSection__container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.bannerSection__label{
+    margin-bottom: 9px;
+}
+
+.bannerSection__title{
+    margin-bottom: 37px;
+}
+
+.bannerSection__text{
+    margin-bottom: 37px;
+}
+
+.bannerSection__btn{
+    margin-bottom: 64px;
+}
+
+.bannerSection__img{
+    margin-bottom: 110px;
+}
+
+@media (min-width:900px) {
+    .bannerSection{
+        display: flex;
+        flex-direction: row;
+        gap: 124px;
+    }
+}
